@@ -4,8 +4,8 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 4
-- **Categorias Ativas:** 1
+- **Total de Skills:** 6
+- **Categorias Ativas:** 3
 - **Última Atualização:** 2026-02-17
 
 ## 📁 Skills por Categoria
@@ -23,9 +23,11 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 
 Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 
-### 🤖 Automation (0 skills)
+### 🤖 Automation (1 skill)
 
-Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
+| Skill | Versão | Descrição | Autor | Compatibilidade |
+|-------|--------|-----------|-------|-----------------|
+| [Outlook Email Reader](./automation/outlook-email-reader/) | 1.0.0 | Leitura automatizada de e-mails do Outlook | Yan Marcos | Windows, Linux, macOS |
 
 ### 📊 Data Processing (0 skills)
 
@@ -35,9 +37,11 @@ Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 
 Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 
-### 🔒 Security (0 skills)
+### 🔒 Security (1 skill)
 
-Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
+| Skill | Versão | Descrição | Autor | Compatibilidade |
+|-------|--------|-----------|-------|-----------------|
+| [Secure Credential Access](./security/secure-credential-access/) | 1.0.0 | Acesso seguro a credenciais do cofre Obsidian | Yan Marcos | Requer Obsidian MCP |
 
 ### ☁️ Cloud (0 skills)
 
@@ -76,6 +80,17 @@ Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 ### Playwright
 - [Router WiFi Extractor](./networking/router-wifi-extractor/)
 - [Router WiFi Configurator](./networking/router-wifi-configurator/)
+- [Outlook Email Reader](./automation/outlook-email-reader/)
+
+### Email
+- [Outlook Email Reader](./automation/outlook-email-reader/)
+
+### Security
+- [Secure Credential Access](./security/secure-credential-access/)
+
+### Obsidian
+- [Secure Credential Access](./security/secure-credential-access/)
+- [Outlook Email Reader](./automation/outlook-email-reader/)
 
 ## 🎯 Skills Mais Populares
 

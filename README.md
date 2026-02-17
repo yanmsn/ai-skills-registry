@@ -16,8 +16,8 @@ Repositório oficial de skills (habilidades) para Antigravity AI, organizadas po
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 4
-- **Categorias Ativas:** 1 (Networking)
+- **Total de Skills:** 6
+- **Categorias Ativas:** 3 (Networking, Automation, Security)
 - **Última Atualização:** 2026-02-17
 - **Repositório:** [github.com/yanmsn/ai-skills-registry](https://github.com/yanmsn/ai-skills-registry)
 
