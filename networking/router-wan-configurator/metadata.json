@@ -1,0 +1,81 @@
+{
+    "name": "Router WAN Configurator",
+    "version": "1.0.0",
+    "description": "Configura a conexão WAN do roteador (PPPoE, IPoE, Bridge, VLAN) de forma automatizada",
+    "author": "Yan Marcos",
+    "category": "networking",
+    "tags": [
+        "router",
+        "wan",
+        "pppoe",
+        "vlan",
+        "internet",
+        "configuration",
+        "playwright"
+    ],
+    "dependencies": [
+        "playwright-mcp"
+    ],
+    "compatibility": {
+        "routers": [
+            "Datacom DM986-204"
+        ],
+        "os": [
+            "windows",
+            "linux",
+            "macos"
+        ],
+        "requires": {
+            "playwright": ">=1.0.0",
+            "browser": "chromium"
+        }
+    },
+    "features": [
+        "Configuração de VLAN ID",
+        "Configuração de Modo de Canal (PPPoE/IPoE/Bridge)",
+        "Configuração de Credenciais PPPoE",
+        "Configuração de Tipo de Conexão (INTERNET/TR069)",
+        "Edição de interface WAN existente"
+    ],
+    "usage": {
+        "required_info": [
+            "IP do roteador",
+            "Credenciais de acesso",
+            "VLAN ID",
+            "Usuário PPPoE",
+            "Senha PPPoE"
+        ],
+        "output": [
+            "Confirmação de configuração aplicada",
+            "Status da conexão WAN"
+        ]
+    },
+    "warnings": [
+        "A internet será desconectada durante a aplicação",
+        "Errar VLAN ou senha deixará o cliente offline",
+        "Verifique se a interface WAN correta está sendo editada"
+    ],
+    "execution_time": {
+        "navigation": "10-15 segundos",
+        "configuration": "5-10 segundos",
+        "apply": "10-30 segundos",
+        "total": "1 minuto"
+    },
+    "created": "2026-02-17",
+    "updated": "2026-02-17",
+    "license": "MIT",
+    "repository": "",
+    "documentation": "SKILL.md",
+    "examples": [],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2026-02-17",
+            "changes": [
+                "Versão inicial",
+                "Suporte para Datacom DM986-204",
+                "Configuração de PPPoE e VLAN"
+            ]
+        }
+    ]
+}

@@ -28,6 +28,14 @@ Skills relacionadas a redes, roteadores, WiFi, configuração de rede e troubles
 
 [📁 Ver Skill](./router-reboot/)
 
+### Router WAN Configurator
+- **Versão:** 1.0.0
+- **Descrição:** Configura a conexão WAN do roteador (PPPoE, IPoE, Bridge, VLAN) de forma automatizada
+- **Autor:** Yan Marcos
+- **Compatibilidade:** Datacom DM986-204 (FTTH)
+
+[📁 Ver Skill](./router-wan-configurator/)
+
 ## Como Usar
 
 1. Navegue até a pasta da skill desejada

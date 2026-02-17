@@ -4,19 +4,20 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 3
+- **Total de Skills:** 4
 - **Categorias Ativas:** 1
-- **Última Atualização:** 2026-02-16
+- **Última Atualização:** 2026-02-17
 
 ## 📁 Skills por Categoria
 
-### 🌐 Networking (3 skills)
+### 🌐 Networking (4 skills)
 
 | Skill | Versão | Descrição | Autor | Compatibilidade |
 |-------|--------|-----------|-------|-----------------|
 | [Router WiFi Extractor](./networking/router-wifi-extractor/) | 1.0.0 | Extrai informações de WiFi de roteadores | Yan Marcos | Datacom, TP-Link, D-Link, Intelbras |
 | [Router WiFi Configurator](./networking/router-wifi-configurator/) | 1.0.0 | Altera configurações de WiFi em roteadores | Yan Marcos | Datacom, TP-Link, D-Link |
 | [Router Reboot](./networking/router-reboot/) | 1.0.0 | Reinicia roteadores de forma automatizada | Yan Marcos | Datacom, TP-Link, D-Link, Intelbras |
+| [Router WAN Configurator](./networking/router-wan-configurator/) | 1.0.0 | Configura conexão WAN PPPoE/VLAN | Yan Marcos | Datacom DM986-204 (FTTH) |
 
 ### 💻 Web Development (0 skills)
 
