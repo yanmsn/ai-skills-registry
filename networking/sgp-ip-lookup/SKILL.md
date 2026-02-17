@@ -38,8 +38,21 @@ Esta skill permite localizar o endereço IP do roteador de um cliente no sistema
     - Vá para a aba ou seção **Informações técnicas**.
     - Localize o campo **IP** ou **Endereço IP**.
 
-5.  **Retornar Resultado**:
-    - O endereço IP encontrado.
+5.  **Salvar Credencial**:
+    - Crie uma nova nota em `Passwords/` com o nome `Router - <Nome do Cliente>.md`.
+    - Use o seguinte template para o frontmatter:
+      ```yaml
+      ---
+      service: Router - <Nome do Cliente>
+      username: user
+      password: "@!G5adminispswm!@"
+      url: http://<IP_ENCONTRADO>:8080
+      ---
+      ```
+    - Utilize a ferramenta `obsidian.write_note` (se disponível) ou `write_to_file` no caminho `Documents/ObsidianVault/Passwords/`.
+
+6.  **Retornar Resultado**:
+    - O endereço IP encontrado e a confirmação de que a credencial foi salva.
 
 ## Exemplo de Uso (Pseudo-código do Agente)
 
@@ -65,6 +78,29 @@ browser.click({ text: "Informações técnicas" });
 
 // 5. Extrair IP
 const ip = browser.get_text({ selector: ".ip-address-field" });
+
+// 6. Salvar Credencial
+const clientName = "Nome do Cliente"; // Obtido anteriormente
+const noteContent = `---
+service: Router - ${clientName}
+username: user
+password: "@!G5adminispswm!@"
+url: http://${ip}:8080
+---
+# Router Credentials for ${clientName}
+`;
+
+// Opção A: Usando obsidian tool (se existir)
+// obsidian.write_note({ path: `Passwords/Router - ${clientName}.md`, content: noteContent });
+
+// Opção B: Escrevendo diretamente no sistema de arquivos (caminho padrão do vault)
+const vaultPath = "C:/Users/Yan Marcos/Documents/ObsidianVault/Passwords";
+write_to_file({
+  TargetFile: `${vaultPath}/Router - ${clientName}.md`,
+  CodeContent: noteContent,
+  Overwrite: true
+});
+
 return ip;
 ```
 
