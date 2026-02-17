@@ -1,0 +1,91 @@
+{
+    "name": "Router Reboot",
+    "version": "1.0.0",
+    "description": "Reinicia roteadores através do painel de administração web de forma automatizada, salvando configurações e executando reboot completo do sistema",
+    "author": "Yan Marcos",
+    "category": "networking",
+    "tags": [
+        "router",
+        "reboot",
+        "restart",
+        "system-management",
+        "automation",
+        "playwright"
+    ],
+    "dependencies": [
+        "playwright-mcp"
+    ],
+    "compatibility": {
+        "routers": [
+            "Datacom DM986-204",
+            "TP-Link (generic)",
+            "D-Link (generic)",
+            "Intelbras (generic)"
+        ],
+        "os": [
+            "windows",
+            "linux",
+            "macos"
+        ],
+        "requires": {
+            "playwright": ">=1.0.0",
+            "browser": "chromium"
+        }
+    },
+    "features": [
+        "Reinicialização automatizada de roteadores",
+        "Confirmação de diálogos automática",
+        "Verificação de retorno online",
+        "Suporte a múltiplos modelos de roteadores",
+        "Trabalho com iframes em painéis de roteadores",
+        "Screenshots de documentação",
+        "Tempo de espera configurável"
+    ],
+    "usage": {
+        "required_info": [
+            "IP do roteador",
+            "Usuário de administração",
+            "Senha de administração",
+            "Confirmação do usuário para reiniciar"
+        ],
+        "output": [
+            "Confirmação de reboot executado",
+            "Status de retorno online",
+            "Tempo de downtime",
+            "Screenshots de verificação"
+        ]
+    },
+    "warnings": [
+        "Roteador ficará offline durante 1-3 minutos",
+        "Todos os dispositivos perderão conexão temporariamente",
+        "SEMPRE confirme com o usuário antes de executar",
+        "Evite reiniciar durante processos críticos",
+        "Certifique-se de salvar configurações antes do reboot"
+    ],
+    "execution_time": {
+        "navigation": "10-15 segundos",
+        "reboot_execution": "1-2 segundos",
+        "downtime": "60-120 segundos",
+        "verification": "10-30 segundos",
+        "total": "2-3 minutos"
+    },
+    "created": "2026-02-16",
+    "updated": "2026-02-16",
+    "license": "MIT",
+    "repository": "",
+    "documentation": "SKILL.md",
+    "examples": [],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2026-02-16",
+            "changes": [
+                "Versão inicial",
+                "Suporte para Datacom DM986-204",
+                "Reinicialização automática com confirmação",
+                "Verificação de retorno online",
+                "Documentação completa com avisos de segurança"
+            ]
+        }
+    ]
+}

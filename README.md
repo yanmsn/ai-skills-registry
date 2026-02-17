@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-ai--skills--registry-blue?logo=github)](https://github.com/yanmsn/ai-skills-registry)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-2-orange.svg)](./INDEX.md)
+[![Skills](https://img.shields.io/badge/Skills-3-orange.svg)](./INDEX.md)
 [![Categories](https://img.shields.io/badge/Categories-10-purple.svg)](./INDEX.md)
 
 Repositório oficial de skills (habilidades) para Antigravity AI, organizadas por categoria e prontas para uso.
@@ -16,7 +16,7 @@ Repositório oficial de skills (habilidades) para Antigravity AI, organizadas po
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 2
+- **Total de Skills:** 3
 - **Categorias Ativas:** 1 (Networking)
 - **Última Atualização:** 2026-02-16
 - **Repositório:** [github.com/yanmsn/ai-skills-registry](https://github.com/yanmsn/ai-skills-registry)

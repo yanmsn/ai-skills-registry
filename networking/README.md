@@ -20,6 +20,14 @@ Skills relacionadas a redes, roteadores, WiFi, configuração de rede e troubles
 
 [📁 Ver Skill](./router-wifi-configurator/)
 
+### Router Reboot
+- **Versão:** 1.0.0
+- **Descrição:** Reinicia roteadores através do painel de administração web de forma automatizada
+- **Autor:** Yan Marcos
+- **Compatibilidade:** Datacom DM986-204, TP-Link, D-Link, Intelbras
+
+[📁 Ver Skill](./router-reboot/)
+
 ## Como Usar
 
 1. Navegue até a pasta da skill desejada
