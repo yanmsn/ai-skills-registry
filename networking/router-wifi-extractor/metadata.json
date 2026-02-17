@@ -1,0 +1,63 @@
+{
+  "name": "Router WiFi Extractor",
+  "version": "1.0.0",
+  "description": "Acessa painéis de administração de roteadores e extrai informações de WiFi (SSID e senhas) de forma automatizada usando Playwright MCP",
+  "author": "Yan Marcos",
+  "category": "networking",
+  "tags": ["router", "wifi", "networking", "automation", "playwright", "password-extraction"],
+  "dependencies": [
+    "playwright-mcp"
+  ],
+  "compatibility": {
+    "routers": [
+      "Datacom DM986-204",
+      "TP-Link (generic)",
+      "D-Link (generic)",
+      "Intelbras (generic)"
+    ],
+    "os": ["windows", "linux", "macos"],
+    "requires": {
+      "playwright": ">=1.0.0",
+      "browser": "chromium"
+    }
+  },
+  "features": [
+    "Acesso automatizado ao painel do roteador",
+    "Extração de SSID de redes 2.4GHz e 5GHz",
+    "Extração de senhas WiFi (revelação de campos ocultos)",
+    "Suporte a múltiplos modelos de roteadores",
+    "Uso de JavaScript para extração direta de valores"
+  ],
+  "usage": {
+    "required_info": [
+      "IP do roteador",
+      "Usuário de administração",
+      "Senha de administração"
+    ],
+    "output": [
+      "SSID da rede 2.4GHz",
+      "Senha da rede 2.4GHz",
+      "SSID da rede 5GHz",
+      "Senha da rede 5GHz",
+      "Tipo de segurança"
+    ]
+  },
+  "created": "2026-02-16",
+  "updated": "2026-02-16",
+  "license": "MIT",
+  "repository": "",
+  "documentation": "SKILL.md",
+  "examples": [],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-02-16",
+      "changes": [
+        "Versão inicial",
+        "Suporte para Datacom DM986-204",
+        "Extração via JavaScript",
+        "Documentação completa"
+      ]
+    }
+  ]
+}

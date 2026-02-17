@@ -1,0 +1,43 @@
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos ZIP temporários
+*.zip
+
+# Node modules (caso alguma skill use Node.js)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credenciais (nunca commitar!)
+*.key
+*.pem
+credentials.json
+secrets.json
+.env

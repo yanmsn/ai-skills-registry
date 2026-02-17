@@ -1,0 +1,84 @@
+{
+    "name": "Router WiFi Configurator",
+    "version": "1.0.0",
+    "description": "Altera configurações de redes WiFi em roteadores (SSID, senha, segurança) de forma automatizada usando Playwright MCP",
+    "author": "Yan Marcos",
+    "category": "networking",
+    "tags": [
+        "router",
+        "wifi",
+        "networking",
+        "automation",
+        "playwright",
+        "configuration",
+        "ssid",
+        "password"
+    ],
+    "dependencies": [
+        "playwright-mcp"
+    ],
+    "compatibility": {
+        "routers": [
+            "Datacom DM986-204",
+            "TP-Link (generic)",
+            "D-Link (generic)"
+        ],
+        "os": [
+            "windows",
+            "linux",
+            "macos"
+        ],
+        "requires": {
+            "playwright": ">=1.0.0",
+            "browser": "chromium"
+        }
+    },
+    "features": [
+        "Alteração de SSID (nome da rede)",
+        "Alteração de senha WiFi",
+        "Suporte para redes 2.4GHz e 5GHz",
+        "Verificação automática de mudanças aplicadas",
+        "Trabalho com iframes em painéis de roteadores",
+        "Screenshots de documentação",
+        "Suporte a múltiplos modelos de roteadores"
+    ],
+    "usage": {
+        "required_info": [
+            "IP do roteador",
+            "Usuário de administração",
+            "Senha de administração",
+            "Banda WiFi (2.4GHz ou 5GHz)",
+            "Novo SSID desejado",
+            "Nova senha WiFi desejada"
+        ],
+        "output": [
+            "Confirmação de SSID alterado",
+            "Confirmação de senha alterada",
+            "Screenshots de verificação"
+        ]
+    },
+    "warnings": [
+        "Alterar configurações WiFi pode desconectar dispositivos",
+        "Alguns roteadores podem requerer reinicialização",
+        "Certifique-se de ter acesso físico ao roteador caso algo dê errado"
+    ],
+    "created": "2026-02-16",
+    "updated": "2026-02-16",
+    "license": "MIT",
+    "repository": "",
+    "documentation": "SKILL.md",
+    "examples": [],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2026-02-16",
+            "changes": [
+                "Versão inicial",
+                "Suporte para Datacom DM986-204",
+                "Alteração de SSID e senha",
+                "Verificação automática de mudanças",
+                "Documentação completa com exemplos"
+            ]
+        }
+    ]
+}
