@@ -1,6 +1,25 @@
-# Antigravity Skills Repository
+# Antigravity Skills Registry
 
-Este diretório contém skills (habilidades) que estendem as capacidades do Antigravity AI para tarefas específicas.
+[![GitHub](https://img.shields.io/badge/GitHub-ai--skills--registry-blue?logo=github)](https://github.com/yanmsn/ai-skills-registry)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Skills](https://img.shields.io/badge/Skills-2-orange.svg)](./INDEX.md)
+[![Categories](https://img.shields.io/badge/Categories-10-purple.svg)](./INDEX.md)
+
+Repositório oficial de skills (habilidades) para Antigravity AI, organizadas por categoria e prontas para uso.
+
+## 🔗 Links Rápidos
+
+- **[📋 Índice Completo de Skills](./INDEX.md)** - Lista todas as skills disponíveis
+- **[🤝 Guia de Contribuição](./CONTRIBUTING.md)** - Como contribuir com novas skills
+- **[☁️ Guia do Google Drive](./GOOGLE_DRIVE_GUIDE.md)** - Compartilhamento via Google Drive
+- **[🔧 Script de Gerenciamento](./scripts/manage-skills.ps1)** - Ferramenta de gerenciamento
+
+## 📊 Estatísticas
+
+- **Total de Skills:** 2
+- **Categorias Ativas:** 1 (Networking)
+- **Última Atualização:** 2026-02-16
+- **Repositório:** [github.com/yanmsn/ai-skills-registry](https://github.com/yanmsn/ai-skills-registry)
 
 ## 📚 O que são Skills?
 
