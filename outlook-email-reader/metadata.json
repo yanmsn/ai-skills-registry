@@ -1,0 +1,64 @@
+{
+    "name": "Outlook Email Reader",
+    "version": "1.0.0",
+    "description": "Acessa e lê a caixa de entrada do Microsoft Outlook de forma automatizada e segura, retornando um resumo dos últimos e-mails importantes.",
+    "author": "Yan Marcos",
+    "category": "communication",
+    "tags": [
+        "email",
+        "outlook",
+        "automation",
+        "secure-credentials",
+        "productivity"
+    ],
+    "dependencies": [
+        "obsidian-mcp",
+        "playwright-mcp"
+    ],
+    "compatibility": {
+        "os": [
+            "windows",
+            "macos",
+            "linux"
+        ],
+        "requires": {
+            "obsidian-mcp": ">=0.7.0",
+            "playwright-mcp": ">=1.0.0"
+        }
+    },
+    "features": [
+        "Leitura segura de credenciais do Obsidian",
+        "Login automatizado no Outlook Web",
+        "Extração de e-mails importantes e recentes",
+        "Resumo estruturado da caixa de entrada"
+    ],
+    "usage": {
+        "required_info": [
+            "Credenciais configuradas em Passwords/Email.md"
+        ],
+        "output": [
+            "Resumo da caixa de entrada",
+            "Lista de e-mails importantes",
+            "Screenshot da caixa de entrada (opcional)"
+        ]
+    },
+    "warnings": [
+        "Login pode falhar se 2FA for exigido",
+        "Layout do Outlook pode mudar frequentemente"
+    ],
+    "created": "2026-02-17",
+    "updated": "2026-02-17",
+    "license": "MIT",
+    "documentation": "SKILL.md",
+    "examples": [],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2026-02-17",
+            "changes": [
+                "Versão inicial",
+                "Integração com Secure Credential Access"
+            ]
+        }
+    ]
+}

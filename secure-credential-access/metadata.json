@@ -1,0 +1,59 @@
+{
+    "name": "Secure Credential Access",
+    "version": "1.0.0",
+    "description": "Permite acesso seguro a credenciais armazenadas no cofre Obsidian (Passwords Vault), evitando senhas hardcoded.",
+    "author": "Yan Marcos",
+    "category": "security",
+    "tags": [
+        "security",
+        "credentials",
+        "obsidian",
+        "mcp",
+        "vault"
+    ],
+    "dependencies": [
+        "obsidian-mcp"
+    ],
+    "compatibility": {
+        "os": [
+            "windows",
+            "macos",
+            "linux"
+        ],
+        "requires": {
+            "obsidian-mcp": ">=0.7.0"
+        }
+    },
+    "features": [
+        "Leitura segura de senhas sem hardcoding",
+        "Integração com skills existentes",
+        "Suporte a múltiplos serviços (GitHub, Email, Router)"
+    ],
+    "usage": {
+        "required_info": [
+            "Nome do serviço (ex: GitHub, Router)"
+        ],
+        "output": [
+            "Credenciais (usuário e senha/token)"
+        ]
+    },
+    "warnings": [
+        "Nunca exibir a senha no chat",
+        "Garantir que o MCP do Obsidian esteja configurado"
+    ],
+    "created": "2026-02-17",
+    "updated": "2026-02-17",
+    "license": "MIT",
+    "documentation": "SKILL.md",
+    "examples": [],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2026-02-17",
+            "changes": [
+                "Versão inicial",
+                "Suporte a leitura de notas de senha no formato frontmatter"
+            ]
+        }
+    ]
+}
