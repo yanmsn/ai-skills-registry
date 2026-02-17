@@ -4,7 +4,7 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 7
+- **Total de Skills:** 8
 - **Categorias Ativas:** 3
 - **Última Atualização:** 2026-02-17
 
@@ -19,6 +19,7 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 | [Router Reboot](./networking/router-reboot/) | 1.0.0 | Reinicia roteadores de forma automatizada | Yan Marcos | Datacom, TP-Link, D-Link, Intelbras |
 | [Router WAN Configurator](./networking/router-wan-configurator/) | 1.0.0 | Configura conexão WAN PPPoE/VLAN | Yan Marcos | Datacom DM986-204 (FTTH) |
 | [SGP IP Lookup](./networking/sgp-ip-lookup/) | 1.0.0 | Consulta cadastro e IP no SGP | Yan Marcos | SGP |
+| [TP-Link EX141 WiFi Extractor](./networking/tplink-ex141-wifi-extractor/) | 1.0.0 | Extrai WiFi de TP-Link EX141 | Yan Marcos | TP-Link EX141 |
 
 ### 💻 Web Development (0 skills)
 
@@ -65,10 +66,12 @@ Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 ### Router
 - [Router WiFi Extractor](./networking/router-wifi-extractor/)
 - [Router WiFi Configurator](./networking/router-wifi-configurator/)
+- [TP-Link EX141 WiFi Extractor](./networking/tplink-ex141-wifi-extractor/)
 
 ### WiFi
 - [Router WiFi Extractor](./networking/router-wifi-extractor/)
 - [Router WiFi Configurator](./networking/router-wifi-configurator/)
+- [TP-Link EX141 WiFi Extractor](./networking/tplink-ex141-wifi-extractor/)
 
 ### Networking
 - [Router WiFi Extractor](./networking/router-wifi-extractor/)
