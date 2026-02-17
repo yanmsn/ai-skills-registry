@@ -1,0 +1,17 @@
+{
+  "name": "SGP IP Lookup",
+  "version": "1.0.0",
+  "description": "Consulta o cadastro de um cliente no sistema SGP e identifica o endereço IP do roteador.",
+  "author": "Yan Marcos",
+  "email": "yan.marcos@g5internet.com.br",
+  "category": "networking",
+  "tags": ["sgp", "ip", "lookup", "router", "customer"],
+  "dependencies": ["mcp-obsidian", "mcp-browser"],
+  "compatibility": {
+    "systems": ["SGP"],
+    "os": ["windows", "linux", "macos"]
+  },
+  "created": "2026-02-17",
+  "updated": "2026-02-17",
+  "license": "MIT"
+}
