@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-ai--skills--registry-blue?logo=github)](https://github.com/yanmsn/ai-skills-registry)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-4-orange.svg)](./INDEX.md)
+[![Skills](https://img.shields.io/badge/Skills-9-orange.svg)](./INDEX.md)
 [![Categories](https://img.shields.io/badge/Categories-10-purple.svg)](./INDEX.md)
 
 Repositório oficial de skills (habilidades) para Antigravity AI, organizadas por categoria e prontas para uso.
@@ -16,9 +16,9 @@ Repositório oficial de skills (habilidades) para Antigravity AI, organizadas po
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 8
+- **Total de Skills:** 9
 - **Categorias Ativas:** 3 (Networking, Automation, Security)
-- **Última Atualização:** 2026-02-17
+- **Última Atualização:** 2026-02-18
 - **Repositório:** [github.com/yanmsn/ai-skills-registry](https://github.com/yanmsn/ai-skills-registry)
 
 ## 📚 O que são Skills?
@@ -153,6 +153,7 @@ tags: [tag1, tag2, tag3]
 
 - **router-wifi-extractor** - Extrai informações de WiFi de roteadores
 - **router-wifi-configurator** - Altera configurações de WiFi em roteadores
+- **ubiquiti-ap-checkup** - Checkup de saúde de antenas Ubiquiti AirOS
 
 ### Skills da Comunidade
 
@@ -237,5 +238,5 @@ As skills neste repositório podem ter licenças individuais. Verifique o arquiv
 
 ---
 
-**Última atualização:** 2026-02-16
+**Última atualização:** 2026-02-18
 **Versão do documento:** 1.0.0

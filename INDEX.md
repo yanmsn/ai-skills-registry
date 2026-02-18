@@ -4,13 +4,13 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 8
+- **Total de Skills:** 9
 - **Categorias Ativas:** 3
-- **Última Atualização:** 2026-02-17
+- **Última Atualização:** 2026-02-18
 
 ## 📁 Skills por Categoria
 
-### 🌐 Networking (4 skills)
+### 🌐 Networking (7 skills)
 
 | Skill | Versão | Descrição | Autor | Compatibilidade |
 |-------|--------|-----------|-------|-----------------|
@@ -20,6 +20,7 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 | [Router WAN Configurator](./networking/router-wan-configurator/) | 1.0.0 | Configura conexão WAN PPPoE/VLAN | Yan Marcos | Datacom DM986-204 (FTTH) |
 | [SGP IP Lookup](./networking/sgp-ip-lookup/) | 1.0.0 | Consulta cadastro e IP no SGP | Yan Marcos | SGP |
 | [TP-Link EX141 WiFi Extractor](./networking/tplink-ex141-wifi-extractor/) | 1.0.0 | Extrai WiFi de TP-Link EX141 | Yan Marcos | TP-Link EX141 |
+| [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/) | 1.1.0 | Checkup de saúde de antenas Ubiquiti AirOS | Yan Marcos | Ubiquiti Rocket M5, AirOS v6.x |
 
 ### 💻 Web Development (0 skills)
 
@@ -100,6 +101,15 @@ Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 ### SGP
 - [SGP IP Lookup](./networking/sgp-ip-lookup/)
 
+### Ubiquiti
+- [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/)
+
+### Monitoring
+- [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/)
+
+### Wireless ISP
+- [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/)
+
 ## 🎯 Skills Mais Populares
 
 1. Router WiFi Extractor - Extração automatizada de credenciais WiFi
@@ -174,6 +184,6 @@ Obrigado a todos os contribuidores que tornam este registro possível!
 
 ---
 
-**Última atualização:** 2026-02-16  
-**Versão:** 1.0.0  
+**Última atualização:** 2026-02-18  
+**Versão:** 1.1.0  
 **Mantido por:** [Yan Marcos](https://github.com/yanmsn)

@@ -36,6 +36,14 @@ Skills relacionadas a redes, roteadores, WiFi, configuração de rede e troubles
 
 [📁 Ver Skill](./router-wan-configurator/)
 
+### Ubiquiti AP Checkup
+- **Versão:** 1.1.0
+- **Descrição:** Acessa painéis AirOS de antenas Ubiquiti (Rocket M5) e realiza checkup completo de saúde
+- **Autor:** Yan Marcos
+- **Compatibilidade:** Ubiquiti Rocket M5, AirOS v6.x
+
+[📁 Ver Skill](./ubiquiti-ap-checkup/)
+
 ## Como Usar
 
 1. Navegue até a pasta da skill desejada
