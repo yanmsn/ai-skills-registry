@@ -44,6 +44,14 @@ Skills relacionadas a redes, roteadores, WiFi, configuração de rede e troubles
 
 [📁 Ver Skill](./ubiquiti-ap-checkup/)
 
+### Ubiquiti AirOS 7 PTP Checkup
+- **Versão:** 1.0.0
+- **Descrição:** Acessa painéis AirOS 7 de antenas Ubiquiti (Rocket 5AC Lite) em modo PTP e realiza checkup completo de saúde
+- **Autor:** Yan Marcos
+- **Compatibilidade:** Ubiquiti Rocket 5AC Lite, AirOS v7.x
+
+[📁 Ver Skill](./ubiquiti-airos7-checkup/)
+
 ## Como Usar
 
 1. Navegue até a pasta da skill desejada
