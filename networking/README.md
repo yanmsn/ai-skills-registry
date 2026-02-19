@@ -52,6 +52,14 @@ Skills relacionadas a redes, roteadores, WiFi, configuração de rede e troubles
 
 [📁 Ver Skill](./ubiquiti-airos7-checkup/)
 
+### Mimosa C5c PTP Checkup
+- **Versão:** 1.0.0
+- **Descrição:** Acessa painéis de administração de rádios Mimosa C5c e realiza checkup completo de saúde
+- **Autor:** Yan Marcos
+- **Compatibilidade:** Mimosa C5c, Firmware v2.x
+
+[📁 Ver Skill](./mimosa-c5c-checkup/)
+
 ## Como Usar
 
 1. Navegue até a pasta da skill desejada

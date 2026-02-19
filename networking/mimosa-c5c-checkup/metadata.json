@@ -1,0 +1,44 @@
+{
+    "name": "Mimosa C5c PTP Checkup",
+    "version": "1.0.0",
+    "description": "Acessa painéis de administração de rádios Mimosa C5c e realiza checkup completo de saúde, extraindo métricas de sinal, modulação, ethernet e logs",
+    "author": "Yan Marcos",
+    "category": "networking",
+    "tags": [
+        "mimosa",
+        "c5c",
+        "backhaul",
+        "ptp",
+        "checkup",
+        "monitoring",
+        "wireless-isp",
+        "playwright"
+    ],
+    "dependencies": [
+        "playwright-mcp",
+        "secure-credential-access"
+    ],
+    "compatibility": {
+        "devices": [
+            "Mimosa C5c",
+            "Mimosa Firmware v2.x"
+        ],
+        "os": [
+            "windows",
+            "linux",
+            "macos"
+        ]
+    },
+    "features": [
+        "Login automatizado (password-only)",
+        "Coleta de métricas de sinal e ruído (CINR)",
+        "Verificação de status Ethernet (Link speed/duplex)",
+        "Monitoramento de Link Availability e Uptime",
+        "Extração e análise de logs do sistema",
+        "Identificação de quedas de energia (Power on Reset)",
+        "Geração automática de relatório em Markdown"
+    ],
+    "created": "2026-02-19",
+    "updated": "2026-02-19",
+    "license": "MIT"
+}

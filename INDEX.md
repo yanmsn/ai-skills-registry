@@ -4,13 +4,13 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 10
+- **Total de Skills:** 11
 - **Categorias Ativas:** 3
 - **Última Atualização:** 2026-02-18
 
 ## 📁 Skills por Categoria
 
-### 🌐 Networking (8 skills)
+### 🌐 Networking (9 skills)
 
 | Skill | Versão | Descrição | Autor | Compatibilidade |
 |-------|--------|-----------|-------|-----------------|
@@ -22,6 +22,7 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 | [TP-Link EX141 WiFi Extractor](./networking/tplink-ex141-wifi-extractor/) | 1.0.0 | Extrai WiFi de TP-Link EX141 | Yan Marcos | TP-Link EX141 |
 | [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/) | 1.1.0 | Checkup de saúde de antenas Ubiquiti AirOS | Yan Marcos | Ubiquiti Rocket M5, AirOS v6.x |
 | [Ubiquiti AirOS 7 PTP Checkup](./networking/ubiquiti-airos7-checkup/) | 1.0.0 | Checkup PTP de antenas Ubiquiti AirOS 7 | Yan Marcos | Ubiquiti Rocket 5AC Lite, AirOS v7.x |
+| [Mimosa C5c PTP Checkup](./networking/mimosa-c5c-checkup/) | 1.0.0 | Checkup de saúde de rádios Mimosa C5c | Yan Marcos | Mimosa C5c, Firmware v2.x |
 
 ### 💻 Web Development (0 skills)
 
@@ -109,6 +110,7 @@ Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 ### Monitoring
 - [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/)
 - [Ubiquiti AirOS 7 PTP Checkup](./networking/ubiquiti-airos7-checkup/)
+- [Mimosa C5c PTP Checkup](./networking/mimosa-c5c-checkup/)
 
 ### Wireless ISP
 - [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/)
@@ -116,6 +118,10 @@ Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 
 ### PTP
 - [Ubiquiti AirOS 7 PTP Checkup](./networking/ubiquiti-airos7-checkup/)
+- [Mimosa C5c PTP Checkup](./networking/mimosa-c5c-checkup/)
+
+### Mimosa
+- [Mimosa C5c PTP Checkup](./networking/mimosa-c5c-checkup/)
 
 ### AirOS 7
 - [Ubiquiti AirOS 7 PTP Checkup](./networking/ubiquiti-airos7-checkup/)
@@ -194,6 +200,6 @@ Obrigado a todos os contribuidores que tornam este registro possível!
 
 ---
 
-**Última atualização:** 2026-02-18  
-**Versão:** 1.2.0  
+**Última atualização:** 2026-02-19  
+**Versão:** 1.3.0  
 **Mantido por:** [Yan Marcos](https://github.com/yanmsn)
