@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-ai--skills--registry-blue?logo=github)](https://github.com/yanmsn/ai-skills-registry)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-11-orange.svg)](./INDEX.md)
+[![Skills](https://img.shields.io/badge/Skills-12-orange.svg)](./INDEX.md)
 [![Categories](https://img.shields.io/badge/Categories-10-purple.svg)](./INDEX.md)
 
 Repositório oficial de skills (habilidades) para Antigravity AI, organizadas por categoria e prontas para uso.
@@ -16,8 +16,8 @@ Repositório oficial de skills (habilidades) para Antigravity AI, organizadas po
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 11
-- **Categorias Ativas:** 3 (Networking, Automation, Security)
+- **Total de Skills:** 12
+- **Categorias Ativas:** 4 (Networking, Automation, Security, Management)
 - **Última Atualização:** 2026-02-19
 - **Repositório:** [github.com/yanmsn/ai-skills-registry](https://github.com/yanmsn/ai-skills-registry)
 
@@ -85,6 +85,7 @@ tags: [tag1, tag2, tag3]
 - **networking/** - Skills relacionadas a redes (roteadores, WiFi, etc.)
 - **web-development/** - Desenvolvimento web
 - **automation/** - Automação de tarefas
+- **management/** - Orquestração e gerenciamento de skills
 - **data-processing/** - Processamento de dados
 - **system-admin/** - Administração de sistemas
 - **security/** - Segurança e pentesting
@@ -156,6 +157,8 @@ tags: [tag1, tag2, tag3]
 - **ubiquiti-ap-checkup** - Checkup de saúde de antenas Ubiquiti AirOS
 - **ubiquiti-airos7-checkup** - Checkup PTP de antenas Ubiquiti AirOS 7
 - **mimosa-c5c-checkup** - Checkup de saúde de rádios Mimosa C5c
+- **skill-orchestrator** - Orquestrador de habilidades
+
 
 ### Skills da Comunidade
 

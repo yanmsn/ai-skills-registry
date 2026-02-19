@@ -1,0 +1,33 @@
+{
+    "name": "Skill Orchestrator",
+    "version": "1.0.0",
+    "description": "Orquestrador mestre projetado para identificar a necessidade do usuário e selecionar a skill mais adequada entre as disponíveis no repositório",
+    "author": "Yan Marcos",
+    "category": "management",
+    "tags": [
+        "orchestration",
+        "routing",
+        "dispatcher",
+        "management",
+        "skills",
+        "index"
+    ],
+    "dependencies": [],
+    "compatibility": {
+        "os": [
+            "windows",
+            "linux",
+            "macos"
+        ]
+    },
+    "features": [
+        "Mapeamento de intenção do usuário para skills específicas",
+        "Matriz de decisão baseada em hardware/software",
+        "Fluxo de trabalho sistemático para identificação de alvos",
+        "Instruções de diferenciação de interfaces (AirOS 6 vs 7 vs Mimosa)",
+        "Guia para atualização constante do repertório"
+    ],
+    "created": "2026-02-19",
+    "updated": "2026-02-19",
+    "license": "MIT"
+}

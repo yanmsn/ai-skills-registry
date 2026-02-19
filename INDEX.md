@@ -4,8 +4,8 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 11
-- **Categorias Ativas:** 3
+- **Total de Skills:** 12
+- **Categorias Ativas:** 4
 - **Última Atualização:** 2026-02-18
 
 ## 📁 Skills por Categoria
@@ -23,6 +23,13 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 | [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/) | 1.1.0 | Checkup de saúde de antenas Ubiquiti AirOS | Yan Marcos | Ubiquiti Rocket M5, AirOS v6.x |
 | [Ubiquiti AirOS 7 PTP Checkup](./networking/ubiquiti-airos7-checkup/) | 1.0.0 | Checkup PTP de antenas Ubiquiti AirOS 7 | Yan Marcos | Ubiquiti Rocket 5AC Lite, AirOS v7.x |
 | [Mimosa C5c PTP Checkup](./networking/mimosa-c5c-checkup/) | 1.0.0 | Checkup de saúde de rádios Mimosa C5c | Yan Marcos | Mimosa C5c, Firmware v2.x |
+
+### 🛠️ Management (1 skill)
+
+| Skill | Versão | Descrição | Autor | Compatibilidade |
+|-------|--------|-----------|-------|-----------------|
+| [Skill Orchestrator](./management/skill-orchestrator/) | 1.0.0 | Orquestrador para seleção de habilidades | Yan Marcos | Universal |
+
 
 ### 💻 Web Development (0 skills)
 
@@ -125,6 +132,10 @@ Nenhuma skill disponível ainda. [Contribua!](./CONTRIBUTING.md)
 
 ### AirOS 7
 - [Ubiquiti AirOS 7 PTP Checkup](./networking/ubiquiti-airos7-checkup/)
+- [Mimosa C5c PTP Checkup](./networking/mimosa-c5c-checkup/) (Backhaul Alternative)
+
+### Orchestration
+- [Skill Orchestrator](./management/skill-orchestrator/)
 
 ## 🎯 Skills Mais Populares
 
@@ -201,5 +212,5 @@ Obrigado a todos os contribuidores que tornam este registro possível!
 ---
 
 **Última atualização:** 2026-02-19  
-**Versão:** 1.3.0  
+**Versão:** 1.4.0  
 **Mantido por:** [Yan Marcos](https://github.com/yanmsn)
