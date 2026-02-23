@@ -17,7 +17,7 @@ Use esta skill quando o usuário solicitar:
 ## Informações Necessárias
 
 Antes de executar, você precisa obter do usuário:
-1. **IP do roteador** (ex: 192.168.1.1, 192.168.28.1, 192.168.0.1)
+1. **IP do roteador** (ex: 192.168.1.1, 192.168.0.1, 192.168.0.1)
 2. **Usuário de administração** (ex: admin, user)
 3. **Senha de administração**
 

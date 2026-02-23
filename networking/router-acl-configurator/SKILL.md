@@ -41,10 +41,10 @@ Antes de executar, obtenha:
 2. **Executar via run_command:**
 ```powershell
 # Usando portas padrão (HTTP=8080, HTTPS=443) com PING habilitado
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\set-acl.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
+powershell.exe -ExecutionPolicy Bypass -File "scripts\set-acl.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
 
 # Configurar portas customizadas e desabilitar PING
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\set-acl.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -HttpPort 8888 -HttpsPort 8443 -Ping $false
+powershell.exe -ExecutionPolicy Bypass -File "scripts\set-acl.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -HttpPort 8888 -HttpsPort 8443 -Ping $false
 ```
 
 ### O que o script faz:

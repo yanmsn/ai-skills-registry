@@ -2,9 +2,9 @@
 # Uso: .\set-wan.ps1 [-VlanID 2603] [-PPPoEUser usuario@isp] [-PPPoEPass NovaSenha]
 
 param(
-    [string]$IP        = "192.168.28.1",
+    [string]$IP        = "192.168.0.1",
     [string]$User      = "user",
-    [string]$Pass      = "user-GW-24",
+    [string]$Pass      = "user",
     [int]$VlanID       = -1,   # -1 = manter VLAN ID atual
     [string]$PPPoEUser = "",   # "" = manter usuario PPPoE atual
     [string]$PPPoEPass = ""    # "" = manter senha PPPoE atual (firmware recebe **** e preserva)

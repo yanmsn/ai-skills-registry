@@ -1,10 +1,10 @@
 # get-wifi.ps1 — Extrai SSID e senha WiFi do Datacom DM986-204 via HTTP puro
-# Uso: .\get-wifi.ps1 [-IP 192.168.28.1] [-User user] [-Pass suasenha]
+# Uso: .\get-wifi.ps1 [-IP 192.168.0.1] [-User user] [-Pass suasenha]
 
 param(
-    [string]$IP   = "192.168.28.1",
+    [string]$IP   = "192.168.0.1",
     [string]$User = "user",
-    [string]$Pass = "user-GW-24"
+    [string]$Pass = "user"
 )
 
 $ProgressPreference = 'SilentlyContinue'

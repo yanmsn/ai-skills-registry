@@ -45,7 +45,7 @@ Esta skill permite localizar o endereço IP do roteador de um cliente no sistema
       ---
       service: Router - <Nome do Cliente>
       username: user
-      password: "@!G5adminispswm!@"
+      password: "admin-password"
       url: http://<IP_ENCONTRADO>:8080
       ---
       ```
@@ -84,7 +84,7 @@ const clientName = "Nome do Cliente"; // Obtido anteriormente
 const noteContent = `---
 service: Router - ${clientName}
 username: user
-password: "@!G5adminispswm!@"
+password: "admin-password"
 url: http://${ip}:8080
 ---
 # Router Credentials for ${clientName}

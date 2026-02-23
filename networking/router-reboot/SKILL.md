@@ -23,7 +23,7 @@ Use esta skill quando o usuário solicitar:
 ## Informações Necessárias
 
 Antes de executar, você precisa obter do usuário:
-1. **IP do roteador** (ex: 192.168.1.1, 192.168.28.1)
+1. **IP do roteador** (ex: 192.168.1.1, 192.168.0.1)
 2. **Usuário de administração**
 3. **Senha de administração**
 4. **Confirmação do usuário** - SEMPRE confirme antes de reiniciar!
@@ -91,7 +91,7 @@ Se o roteador for um **Datacom DM986-204**, use os scripts PowerShell que são m
 - **Script:** `scripts\reboot.ps1`
 - **Executar:**
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\reboot.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
+powershell.exe -ExecutionPolicy Bypass -File "scripts\reboot.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
 ```
 
 **2. Restauração de Fábrica (Factory Reset):**
@@ -99,7 +99,7 @@ powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\reboot.
 - **Script:** `scripts\reset.ps1`
 - **Executar:**
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\reset.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
+powershell.exe -ExecutionPolicy Bypass -File "scripts\reset.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
 ```
 
 #### Outros Modelos ou Backup (Playwright):
@@ -161,7 +161,7 @@ try {
 ```javascript
 async (page) => {
   // 1. Navegar até o roteador
-  await page.goto('http://192.168.28.1');
+  await page.goto('http://192.168.0.1');
   await page.waitForTimeout(3000);
   
   // 2. Login (se necessário)
@@ -208,7 +208,7 @@ async (page) => {
   
   // 7. Verificar se voltou online
   try {
-    await page.goto('http://192.168.28.1', { timeout: 30000 });
+    await page.goto('http://192.168.0.1', { timeout: 30000 });
     console.log('Roteador reiniciado com sucesso!');
     return { 
       success: true, 
@@ -217,7 +217,7 @@ async (page) => {
   } catch (error) {
     console.log('Aguardando mais tempo...');
     await page.waitForTimeout(30000);
-    await page.goto('http://192.168.28.1');
+    await page.goto('http://192.168.0.1');
     return { 
       success: true, 
       message: 'Roteador reiniciado (tempo estendido)'
@@ -291,7 +291,7 @@ await page.waitForTimeout(60000); // 60 segundos
 let online = false;
 for (let i = 0; i < 5; i++) {
   try {
-    await page.goto('http://192.168.28.1', { timeout: 10000 });
+    await page.goto('http://192.168.0.1', { timeout: 10000 });
     online = true;
     break;
   } catch (error) {
@@ -331,11 +331,11 @@ await page.waitForTimeout(180000);
 **Solução:** Isso é esperado! Aguarde e reconecte:
 ```javascript
 try {
-  await page.goto('http://192.168.28.1');
+  await page.goto('http://192.168.0.1');
 } catch (error) {
   // Esperado durante reboot
   await page.waitForTimeout(60000);
-  await page.goto('http://192.168.28.1');
+  await page.goto('http://192.168.0.1');
 }
 ```
 
@@ -366,7 +366,7 @@ if (needsLogin) {
 // Reiniciar roteador Datacom
 const result = await page.evaluate(async () => {
   const config = {
-    ip: '192.168.28.1',
+    ip: '192.168.0.1',
     user: 'user',
     password: 'admin123',
     rebootWaitTime: 90000 // 90 segundos

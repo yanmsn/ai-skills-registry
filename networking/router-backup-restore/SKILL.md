@@ -22,9 +22,9 @@ Use esta skill quando precisar:
 ## Informações Necessárias
 
 Antes de executar, você precisa:
-1. **IP do roteador** (ex: 192.168.28.1)
-2. **Usuário de administração** (padrão: user)
-3. **Senha de administração** (padrão: user-GW-24)
+1. **IP do roteador** (ex: 192.168.0.1)
+2. **Usuário de administração** (ex: user)
+3. **Senha de administração** (ex: user)
 4. **Caminho do arquivo** (para restore) ou **Nome do arquivo** (para backup opcional)
 
 ## ⚠️ Avisos Importantes
@@ -43,24 +43,24 @@ Utilize o script PowerShell para baixar o arquivo de configuração XML:
 2. **Executar via run_command:**
 ```powershell
 # Backup com nome automático (backup-YYYY-MM-DD_HH-mm-ss.xml)
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\backup.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
+powershell.exe -ExecutionPolicy Bypass -File "scripts\backup.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
 
 # Backup salvando em caminho específico
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\backup.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -OutputFile "C:\backups\config_cliente_X.xml"
+powershell.exe -ExecutionPolicy Bypass -File "scripts\backup.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -OutputFile "C:\backups\config_cliente_X.xml"
 ```
 
 ### Passo 2: Restaurar Backup (Upload)
 
 Utilize o script PowerShell para enviar um arquivo XML de configuração ao roteador:
 
-1. **Script:** `C:\Users\Yan\Desktop\dm986\restore.ps1`
+1. **Script:** `scripts\restore.ps1`
 2. **Executar via run_command:**
 ```powershell
 # Restore e aguardar o retorno online (padrão)
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\restore.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -InputFile "C:\caminho\para\backup.xml"
+powershell.exe -ExecutionPolicy Bypass -File "scripts\restore.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -InputFile "C:\caminho\para\backup.xml"
 
 # Restore sem aguardar (mais rápido para o bot)
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\restore.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -InputFile "C:\caminho\para\backup.xml" -Wait $false
+powershell.exe -ExecutionPolicy Bypass -File "scripts\restore.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -InputFile "C:\caminho\para\backup.xml" -Wait $false
 ```
 
 ## Checklist de Execução

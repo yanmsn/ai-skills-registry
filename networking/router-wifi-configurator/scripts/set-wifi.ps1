@@ -2,9 +2,9 @@
 # Uso: .\set-wifi.ps1 [-SSID24 NovoNome] [-SSID5 NovoNome5G] [-Senha24 NovaSenha] [-Senha5 NovaSenha5G]
 
 param(
-    [string]$IP        = "192.168.28.1",
+    [string]$IP        = "192.168.0.1",
     [string]$User      = "user",
-    [string]$Pass      = "user-GW-24",
+    [string]$Pass      = "user",
     [string]$SSID24  = "",   # Novo SSID 2.4GHz  (omitir = manter atual)
     [string]$SSID5   = "",   # Novo SSID 5GHz    (omitir = manter atual)
     [string]$Senha24 = "",   # Nova senha 2.4GHz (omitir = manter atual)

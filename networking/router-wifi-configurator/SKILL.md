@@ -18,7 +18,7 @@ Use esta skill quando o usuário solicitar:
 ## Informações Necessárias
 
 Antes de executar, você precisa obter do usuário:
-1. **IP do roteador** (ex: 192.168.1.1, 192.168.28.1)
+1. **IP do roteador** (ex: 192.168.1.1, 192.168.0.1)
 2. **Usuário de administração**
 3. **Senha de administração**
 4. **Banda a ser configurada** (2.4GHz ou 5GHz)
@@ -162,7 +162,7 @@ await page.screenshot({ path: 'wifi_ssid_configured.png' });
 ```javascript
 async (page) => {
   // 1. Navegar até o roteador
-  await page.goto('http://192.168.28.1');
+  await page.goto('http://192.168.0.1');
   await page.waitForTimeout(3000);
   
   // 2. Login (se necessário)
@@ -326,7 +326,7 @@ if (rebootNeeded) {
 // Configurar WiFi 2.4GHz no roteador Datacom
 const result = await page.evaluate(async () => {
   const config = {
-    ip: '192.168.28.1',
+    ip: '192.168.0.1',
     user: 'user',
     password: 'admin123',
     band: '2.4G',

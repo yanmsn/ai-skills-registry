@@ -46,7 +46,7 @@ Esta skill permite acessar a interface web de roteadores TP-Link EX141 e extrair
 browser.open({ url: "http://100.96.1.101:8080/" });
 browser.execute_javascript({
   code: `
-    document.getElementById('pc-login-password').value = '@!G5adminispswm!@';
+    document.getElementById('pc-login-password').value = 'admin-password';
     document.getElementById('pc-login-btn').click();
   `
 });

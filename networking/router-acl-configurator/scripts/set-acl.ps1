@@ -3,9 +3,9 @@
 # Uso: .\set-acl.ps1 [-HttpPort 8080] [-HttpsPort 443] [-Ping $true]
 
 param(
-    [string]$IP         = "192.168.28.1",
+    [string]$IP         = "192.168.0.1",
     [string]$User       = "user",
-    [string]$Pass       = "user-GW-24",
+    [string]$Pass       = "user",
     [int]$HttpPort      = 8080,
     [int]$HttpsPort     = 443,
     [bool]$Ping         = $true

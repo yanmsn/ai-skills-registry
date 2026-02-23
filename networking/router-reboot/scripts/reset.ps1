@@ -6,9 +6,9 @@
 # (credenciais, SSID, WAN etc.). As credenciais atuais deixarao de funcionar.
 
 param(
-    [string]$IP   = "192.168.28.1",
+    [string]$IP   = "192.168.0.1",
     [string]$User = "user",
-    [string]$Pass = "user-GW-24",
+    [string]$Pass = "user",
     [bool]$Wait   = $true   # aguarda o equipamento voltar apos o reset
 )
 

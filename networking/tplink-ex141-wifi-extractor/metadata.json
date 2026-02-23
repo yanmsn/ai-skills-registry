@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Extrai informações de rede WiFi (SSID, senha) de roteadores TP-Link modelo EX141.",
   "author": "Yan Marcos",
-  "email": "yan.marcos@g5internet.com.br",
+  "email": "user.password@g5internet.com.br",
   "category": "networking",
   "tags": ["router", "wifi", "extraction", "tplink", "ex141"],
   "dependencies": ["mcp-browser"],

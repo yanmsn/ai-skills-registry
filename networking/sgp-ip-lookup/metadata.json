@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Consulta o cadastro de um cliente no sistema SGP e identifica o endereço IP do roteador.",
   "author": "Yan Marcos",
-  "email": "yan.marcos@g5internet.com.br",
+  "email": "user.password@g5internet.com.br",
   "category": "networking",
   "tags": ["sgp", "ip", "lookup", "router", "customer"],
   "dependencies": ["mcp-obsidian", "mcp-browser"],

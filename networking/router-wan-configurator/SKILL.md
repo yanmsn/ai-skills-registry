@@ -93,8 +93,8 @@ await frame.locator('select[name="adslConnectionMode"]').selectOption({ value: '
 await frame.locator('select[name="ctype"]').selectOption({ label: 'INTERNET' });
 
 // 4. Configurar Credenciais PPPoE
-await frame.locator('input[name="pppUserName"]').fill('yan.marcos@g5fibra');
-await frame.locator('input[name="pppPassword"]').fill('yan.marcos');
+await frame.locator('input[name="pppUserName"]').fill('user.name@provider');
+await frame.locator('input[name="pppPassword"]').fill('user.password');
 ```
 
 ### Passo 3: Aplicar Mudanças
@@ -112,10 +112,10 @@ Após aplicar, aguarde e verifique se a conexão subiu (status UP no dashboard o
 ```javascript
 async (page) => {
   // 1. Navegar e Login
-  await page.goto('http://192.168.28.1');
+  await page.goto('http://192.168.0.1');
   if (await page.locator('#username').count() > 0) {
       await page.locator('#username').fill('user');
-      await page.locator('#password').fill('user-GW-24');
+      await page.locator('#password').fill('user');
       await page.getByRole('button', { name: 'Login' }).click();
       await page.waitForTimeout(5000);
   }
@@ -145,8 +145,8 @@ async (page) => {
   await frame.locator('select[name="ctype"]').selectOption({ label: 'INTERNET' });
   
   // 6. Credenciais
-  await frame.locator('input[name="pppUserName"]').fill('yan.marcos@g5fibra');
-  await frame.locator('input[name="pppPassword"]').fill('yan.marcos');
+  await frame.locator('input[name="pppUserName"]').fill('user.name@provider');
+  await frame.locator('input[name="pppPassword"]').fill('user.password');
   
   // 7. Salvar
   // CUIDADO: Isso vai derrubar a conexão se os dados estiverem errados
