@@ -4,9 +4,9 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 12
+- **Total de Skills:** 14
 - **Categorias Ativas:** 4
-- **Última Atualização:** 2026-02-18
+- **Última Atualização:** 2026-02-22
 
 ## 📁 Skills por Categoria
 
@@ -17,7 +17,9 @@ Repositório oficial de skills para Antigravity AI, organizado por categorias.
 | [Router WiFi Extractor](./networking/router-wifi-extractor/) | 1.0.0 | Extrai informações de WiFi de roteadores | Yan Marcos | Datacom, TP-Link, D-Link, Intelbras |
 | [Router WiFi Configurator](./networking/router-wifi-configurator/) | 1.0.0 | Altera configurações de WiFi em roteadores | Yan Marcos | Datacom, TP-Link, D-Link |
 | [Router Reboot](./networking/router-reboot/) | 1.0.0 | Reinicia roteadores de forma automatizada | Yan Marcos | Datacom, TP-Link, D-Link, Intelbras |
-| [Router WAN Configurator](./networking/router-wan-configurator/) | 1.0.0 | Configura conexão WAN PPPoE/VLAN | Yan Marcos | Datacom DM986-204 (FTTH) |
+| [Router WAN Configurator](./networking/router-wan-configurator/) | 1.1.0 | Configura conexão WAN PPPoE/VLAN (PS Support) | Yan Marcos | Datacom DM986-204 (FTTH) |
+| [Router Backup/Restore](./networking/router-backup-restore/) | 1.0.0 | Backup e Restore de configurações via XML | Yan Marcos | Datacom DM986-204 |
+| [Router ACL Configurator](./networking/router-acl-configurator/) | 1.0.0 | Configuração de IPv4 ACL via WAN | Yan Marcos | Datacom DM986-204 |
 | [SGP IP Lookup](./networking/sgp-ip-lookup/) | 1.0.0 | Consulta cadastro e IP no SGP | Yan Marcos | SGP |
 | [TP-Link EX141 WiFi Extractor](./networking/tplink-ex141-wifi-extractor/) | 1.0.0 | Extrai WiFi de TP-Link EX141 | Yan Marcos | TP-Link EX141 |
 | [Ubiquiti AP Checkup](./networking/ubiquiti-ap-checkup/) | 1.1.0 | Checkup de saúde de antenas Ubiquiti AirOS | Yan Marcos | Ubiquiti Rocket M5, AirOS v6.x |
@@ -211,6 +213,6 @@ Obrigado a todos os contribuidores que tornam este registro possível!
 
 ---
 
-**Última atualização:** 2026-02-19  
-**Versão:** 1.4.0  
+**Última atualização:** 2026-02-22  
+**Versão:** 1.5.0  
 **Mantido por:** [Yan Marcos](https://github.com/yanmsn)

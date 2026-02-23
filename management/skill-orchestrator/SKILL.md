@@ -19,10 +19,12 @@ Baseado na intenção do usuário, utilize o mapeamento abaixo para selecionar a
 
 | Se o usuário quer... | E o equipamento é... | Use esta Skill |
 |----------------------|----------------------|----------------|
-| Extrair senhas de WiFi | Datacom, TP-Link, D-Link, Intelbras | `router-wifi-extractor` |
-| Alterar nome/senha WiFi | Datacom, TP-Link, D-Link | `router-wifi-configurator` |
-| Reiniciar o roteador | Genérico/Suportado | `router-reboot` |
-| Configurar WAN/PPPoE/VLAN | Datacom DM986 | `router-wan-configurator` |
+| Extrair senhas de WiFi | Datacom (PS), TP-Link, D-Link, Intelbras | `router-wifi-extractor` |
+| Alterar nome/senha WiFi | Datacom (PS), TP-Link, D-Link | `router-wifi-configurator` |
+| Reiniciar ou Resetar | Datacom (PS), Genérico | `router-reboot` |
+| Configurar WAN/PPPoE/VLAN | Datacom DM986 (PS) | `router-wan-configurator` |
+| **Backup ou Restore** | **Datacom DM986 (PS)** | `router-backup-restore` |
+| **Acesso Remoto (ACL)**| **Datacom DM986 (PS)** | `router-acl-configurator` |
 | Consultar IP/Cadastro | Sistema SGP | `sgp-ip-lookup` |
 | **Checkup de Saúde PTP** | **Ubiquiti (AirOS 6/M5)** | `ubiquiti-ap-checkup` |
 | **Checkup de Saúde PTP** | **Ubiquiti (AirOS 7/AC)** | `ubiquiti-airos7-checkup` |

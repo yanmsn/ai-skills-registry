@@ -83,7 +83,29 @@ await page.waitForTimeout(2000);
 
 ### Passo 4: Executar o Reboot
 
+#### Para Roteadores Datacom (DM986-204) — MÉTODO RECOMENDADO (PowerShell):
+
+Se o roteador for um **Datacom DM986-204**, use os scripts PowerShell que são mais determinísticos e rápidos:
+
+**1. Reinicialização Simples (Reboot):**
+- **Script:** `C:\Users\Yan\Desktop\dm986\reboot.ps1`
+- **Executar:**
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\reboot.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
+```
+
+**2. Restauração de Fábrica (Factory Reset):**
+- **AVISO:** Isso apaga TODAS as configurações!
+- **Script:** `C:\Users\Yan\Desktop\dm986\reset.ps1`
+- **Executar:**
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\reset.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
+```
+
+#### Outros Modelos ou Backup (Playwright):
+
 1. **Tirar screenshot antes do reboot (documentação):**
+
 ```javascript
 await page.screenshot({ path: 'before_reboot.png' });
 ```

@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-ai--skills--registry-blue?logo=github)](https://github.com/yanmsn/ai-skills-registry)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-12-orange.svg)](./INDEX.md)
+[![Skills](https://img.shields.io/badge/Skills-14-orange.svg)](./INDEX.md)
 [![Categories](https://img.shields.io/badge/Categories-10-purple.svg)](./INDEX.md)
 
 Repositório oficial de skills (habilidades) para Antigravity AI, organizadas por categoria e prontas para uso.
@@ -16,9 +16,9 @@ Repositório oficial de skills (habilidades) para Antigravity AI, organizadas po
 
 ## 📊 Estatísticas
 
-- **Total de Skills:** 12
+- **Total de Skills:** 14
 - **Categorias Ativas:** 4 (Networking, Automation, Security, Management)
-- **Última Atualização:** 2026-02-19
+- **Última Atualização:** 2026-02-22
 - **Repositório:** [github.com/yanmsn/ai-skills-registry](https://github.com/yanmsn/ai-skills-registry)
 
 ## 📚 O que são Skills?
@@ -154,10 +154,17 @@ tags: [tag1, tag2, tag3]
 
 - **router-wifi-extractor** - Extrai informações de WiFi de roteadores
 - **router-wifi-configurator** - Altera configurações de WiFi em roteadores
+- **router-wan-configurator** - Configura conexão WAN PPPoE/VLAN
+- **router-backup-restore** - Backup e Restore de configurações Datacom
+- **router-acl-configurator** - Configuração de IPv4 ACL via WAN
 - **ubiquiti-ap-checkup** - Checkup de saúde de antenas Ubiquiti AirOS
 - **ubiquiti-airos7-checkup** - Checkup PTP de antenas Ubiquiti AirOS 7
 - **mimosa-c5c-checkup** - Checkup de saúde de rádios Mimosa C5c
 - **skill-orchestrator** - Orquestrador de habilidades
+- **sgp-ip-lookup** - Consulta cadastro e IP no SGP
+- **tplink-ex141-wifi-extractor** - Extrai WiFi de TP-Link EX141
+- **outlook-email-reader** - Leitura automatizada de e-mails do Outlook
+- **secure-credential-access** - Acesso seguro a credenciais (Obsidian)
 
 
 ### Skills da Comunidade

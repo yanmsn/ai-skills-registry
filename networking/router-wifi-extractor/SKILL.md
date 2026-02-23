@@ -56,7 +56,17 @@ Return:
 - Security type
 ```
 
-### Passo 3: Extrair Senhas com JavaScript
+### Passo 2-B: Roteadores Datacom (DM986-204) — MÉTODO RECOMENDADO (PowerShell)
+
+Para este modelo específico, utilize o script PowerShell para uma extração instantânea e sem necessidade de navegador:
+
+1. **Localizar o script:** `C:\Users\Yan\Desktop\dm986\get-wifi.ps1`
+2. **Executar via run_command:**
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\get-wifi.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
+```
+
+### Passo 3: Extrair Senhas com JavaScript (Outros Modelos)
 
 **Técnica Importante:** Senhas geralmente aparecem ocultas (como pontos) na interface, mas o valor real está no campo de input. Use JavaScript para extrair:
 
