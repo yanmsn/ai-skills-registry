@@ -37,7 +37,7 @@ Antes de executar, obtenha:
 
 ### Utilizando o Script PowerShell (MÉTODO RECOMENDADO)
 
-1. **Script:** `C:\Users\Yan\Desktop\dm986\set-acl.ps1`
+1. **Script:** `scripts\set-acl.ps1`
 2. **Executar via run_command:**
 ```powershell
 # Usando portas padrão (HTTP=8080, HTTPS=443) com PING habilitado

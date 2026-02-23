@@ -88,7 +88,7 @@ await page.waitForTimeout(2000);
 Se o roteador for um **Datacom DM986-204**, use os scripts PowerShell que são mais determinísticos e rápidos:
 
 **1. Reinicialização Simples (Reboot):**
-- **Script:** `C:\Users\Yan\Desktop\dm986\reboot.ps1`
+- **Script:** `scripts\reboot.ps1`
 - **Executar:**
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\reboot.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
@@ -96,7 +96,7 @@ powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\reboot.
 
 **2. Restauração de Fábrica (Factory Reset):**
 - **AVISO:** Isso apaga TODAS as configurações!
-- **Script:** `C:\Users\Yan\Desktop\dm986\reset.ps1`
+- **Script:** `scripts\reset.ps1`
 - **Executar:**
 ```powershell
 powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\reset.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]

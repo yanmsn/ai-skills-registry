@@ -41,14 +41,14 @@ Antes de executar, obtenha do usuário:
 
 Para o modelo Datacom DM986-204, utilize o script PowerShell para uma configuração determinística e instantânea, que lida automaticamente com a complexidade do `postSecurityFlag` e codificação Base64.
 
-1. **Localizar o script:** `C:\Users\Yan\Desktop\dm986\set-wan.ps1`
+1. **Localizar o script:** `scripts\set-wan.ps1`
 2. **Executar via run_command:**
 ```powershell
 # Alterar VLAN ID e credenciais PPPoE
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\set-wan.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -VlanID [ID] -PPPoEUser "[USUARIO]" -PPPoEPass "[SENHA]"
+powershell.exe -ExecutionPolicy Bypass -File "scripts\set-wan.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -VlanID [ID] -PPPoEUser "[USUARIO]" -PPPoEPass "[SENHA]"
 
 # Alterar somente o que for necessário (parâmetros omitidos mantêm o valor atual no roteador)
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\set-wan.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -VlanID 2603
+powershell.exe -ExecutionPolicy Bypass -File "scripts\set-wan.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -VlanID 2603
 ```
 
 ### Método 2: Navegação Manual (Playwright)

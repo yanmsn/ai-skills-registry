@@ -39,7 +39,7 @@ Antes de executar, você precisa:
 
 Utilize o script PowerShell para baixar o arquivo de configuração XML:
 
-1. **Script:** `C:\Users\Yan\Desktop\dm986\backup.ps1`
+1. **Script:** `scripts\backup.ps1`
 2. **Executar via run_command:**
 ```powershell
 # Backup com nome automático (backup-YYYY-MM-DD_HH-mm-ss.xml)

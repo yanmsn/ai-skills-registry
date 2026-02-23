@@ -60,10 +60,10 @@ Return:
 
 Para este modelo específico, utilize o script PowerShell para uma extração instantânea e sem necessidade de navegador:
 
-1. **Localizar o script:** `C:\Users\Yan\Desktop\dm986\get-wifi.ps1`
+1. **Localizar o script:** `scripts\get-wifi.ps1`
 2. **Executar via run_command:**
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\get-wifi.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
+powershell.exe -ExecutionPolicy Bypass -File "scripts\get-wifi.ps1" -IP [IP] -User [USER] -Pass [PASSWORD]
 ```
 
 ### Passo 3: Extrair Senhas com JavaScript (Outros Modelos)

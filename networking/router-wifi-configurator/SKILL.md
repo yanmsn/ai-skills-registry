@@ -61,14 +61,14 @@ await page.locator('link[text="Network"]').click();
 
 Para este modelo, utilize o script PowerShell que permite alterar SSID e senha de ambas as bandas simultaneamente ou individualmente, de forma muito mais confiável:
 
-1. **Localizar o script:** `C:\Users\Yan\Desktop\dm986\set-wifi.ps1`
+1. **Localizar o script:** `scripts\set-wifi.ps1`
 2. **Executar via run_command:**
 ```powershell
 # Alterar SSID e senha de ambas as bandas
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\set-wifi.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -SSID24 "[NOVO_SSID_24]" -SSID5 "[NOVO_SSID_5]" -Senha24 "[NOVA_SENHA_24]" -Senha5 "[NOVA_SENHA_5]"
+powershell.exe -ExecutionPolicy Bypass -File "scripts\set-wifi.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -SSID24 "[NOVO_SSID_24]" -SSID5 "[NOVO_SSID_5]" -Senha24 "[NOVA_SENHA_24]" -Senha5 "[NOVA_SENHA_5]"
 
 # Alterar apenas o que for necessário (parâmetros omitidos mantêm o valor atual)
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Yan\Desktop\dm986\set-wifi.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -SSID24 "MinhaRede" -Senha24 "NovaSenha123"
+powershell.exe -ExecutionPolicy Bypass -File "scripts\set-wifi.ps1" -IP [IP] -User [USER] -Pass [PASSWORD] -SSID24 "MinhaRede" -Senha24 "NovaSenha123"
 ```
 
 #### Outros Modelos (Navegação Manual):
